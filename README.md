@@ -8,7 +8,7 @@
 * [OAuth сервер Яндекса](https://oauth.yandex.ru/)
 
 # Установка
-    git clone git@github.com:Gasoid/python-yandexdirect.git
+    git clone git://github.com/Gasoid/python-yandexdirect.git
 
 # Использование
 ## OAuth авторизация
