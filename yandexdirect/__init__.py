@@ -19,7 +19,7 @@ except ImportError:
     HAVE_URLFETCH = False
 
 
-__author__ = "Justin Forest <hex@umonkey.net>"
+__author__ = "Justin Forest <hex@umonkey.net>, Gasoid <rinat@sgreen.ru>"
 __license__ = "GNU LGPL"
 
 
