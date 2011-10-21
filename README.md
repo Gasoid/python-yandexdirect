@@ -37,3 +37,16 @@
     banners = client.GetBanners([campaign['CampaignID']])
 
 Все методы и возвращаемые данные есть в документации API Яндекса.Директа
+
+Реализованные методы:
+* GetBanners
+* GetBannerPhrases
+* GetVersion
+* Ping
+* GetClientInfo
+* GetClientsList
+* GetSubClients
+* GetCampaignsList
+* UpdatePrices
+* SetAutoPrice
+
