@@ -41,6 +41,7 @@
 Реализованные методы:
 
 * GetBanners
+* GetBalance
 * GetBannerPhrases
 * GetVersion
 * Ping

@@ -180,3 +180,8 @@ class Client(object):
 
     def SetAutoPrice(self, updates):
         self.call_method("SetAutoPrice", updates)
+    def GetBalance(self, campaigns):
+        if not isinstance(campaigns, (list, tuple)):
+            raise Exception('campaigns must be a list.')
+        balances = self.call_method("GetBalance", campaigns)
+        return balances
